@@ -19,8 +19,8 @@ const main = async () => {
 
   //Create the transaction and freeze for manual signing
   const transaction = await new TokenCreateTransaction()
-    .setTokenName("EASTER COIN")
-    .setTokenSymbol("EASTER")
+    .setTokenName("TEST COIN")
+    .setTokenSymbol("TEST")
     .setTreasuryAccountId(treasuryId)
     .setInitialSupply(100000000000)
     .setDecimals(2)
